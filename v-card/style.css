@@ -1,0 +1,66 @@
+
+body{background-color: lightblue ;
+    width: 1200px;
+    height: 600px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    
+}
+
+.job-title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.bio {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 400px;
+    width: 200px;
+    height: 80px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 40px;
+
+    }
+
+
+.email {
+display: flex;
+justify-content:flex-end;
+align-items:flex-end ;
+flex-direction: column;
+margin-top: 300px;
+margin-left: 300px;
+
+}
+
+.phone {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+img {
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    margin-top: 180px;
+    margin-right: 320px;
+}
